@@ -1,0 +1,37 @@
+{
+  "name": "amazonabeer.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "http-errors": "^1.6.3"
+  },
+  "devDependencies": {
+    "jstransformer-handlebars": "^1.1.0",
+    "metalsmith": "^2.3.0",
+    "metalsmith-assets": "^0.1.0",
+    "metalsmith-layouts": "^2.1.0",
+    "metalsmith-markdown": "^0.2.2",
+    "metalsmith-permalinks": "^0.5.0",
+    "metalsmith-sass": "^1.5.1"
+  },
+  "scripts": {
+    "build": "NODE_ENV=development node build",
+    "build-prod": "NODE_ENV=production node build",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "deploy": "git subtree push --prefix public origin gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amazonabeer/amazonabeer.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amazonabeer/amazonabeer.github.io/issues"
+  },
+  "homepage": "https://github.com/amazonabeer/amazonabeer.github.io#readme"
+}
