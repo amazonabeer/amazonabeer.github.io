@@ -21,7 +21,7 @@
     "build": "NODE_ENV=development node build",
     "build-prod": "NODE_ENV=production node build",
     "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 0",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "git subtree push --prefix public origin master"
   },
   "repository": {
